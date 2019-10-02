@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #f9f9f9;
+}
+h1{
+    margin: 20px 20px 0 20px;
+}
+h4{
+    margin: 6px;
+    padding: 0;
+}
+a{
+    color: blue;
+}
+.header-input_in{
+    height: 30px;
+    width: 90%;
+    border: 2px solid #ececec;
+    background-color: white;
+    margin-right: 20px;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.header{
+    margin-top: 20px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+}
+.header-input{
+    width: 40%;
+}
+.header-search{
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0 10px;
+    width: 30%;
+}
+.header-btn_radio{
+    height: 13px;
+    width: 13px;
+    margin: 10px 20px;
+}
+.header-search_btn{
+    margin-left: 30px;
+    height: 35px;
+    width: 80px;
+    background-color: cadetblue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.main{
+    border: 5px solid #ececec;
+    background-color: white;
+}
+.main-context{
+    height: 200px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    border-top: 2px solid #ececec;
+}
+.main-context_info{
+    width: 65%;
+    height: 200px;
+}
+.main-context_second{
+    width: 30%;
+    margin-left: 20px;
+}
+.main-context_second_btn{
+    margin-top: 20px;
+    width: 100%;
+    height: 35px;
+    border: 3px solid #ececec;
+    background-color: white;
+    border-radius: 5px;
+}
+.main-context_second_info{
+    margin-top: 20px;
+    width: 100%;
+    height: 220px;
+    border: 10px solid #ececec;
+    border-radius: 5px;
+}
+.main-context_second_info_block{
+    border-top: 2px solid #ececec;
+    padding: 20px;
+
+}
+.img{
+    background-color: cadetblue;
+    width: 100%;
+    height: 120px;
+}
+.main-links{
+    width: 60%;
+    border-top: 2px solid #ececec;
+    padding-top: 20px;
+    margin: 20px;
+    color: blue;
+    font-size: 18px;
+
+}
+.main-context_info_one{
+    height: 80px;
+    border-bottom: 2px solid #ececec;
+}
+.main-context_info_one:hover{
+    background-color: #ececec;
+}
